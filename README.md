@@ -7,11 +7,13 @@ Occasionally I use packages which are not available from bare IHaskell installat
 extra-deps: 
     - composition-1.0.2.1
     - aeson-1.1.2.0
-
 `
+Note that kernel does not have to be restarted after `stack build` incorporated new packages.
 
 Remark: LANGUAGE directives when used in IHaskell affect the whole session, for instance: 
 
   `{-# LANGUAGE FlexibleContexts ,AllowAmbiguousTypes #-}`
   
 causes persistent activation of respective switches regardles you close, open notebooki (it affects even other open notebooksi TODO double chack this). The kernel must be restarted to clear these switches
+
+
