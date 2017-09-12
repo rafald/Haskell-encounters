@@ -8,7 +8,9 @@ extra-deps:
     - composition-1.0.2.1
     - aeson-1.1.2.0
 `
-Note that kernel does not have to be restarted after `stack build` incorporated new packages.
+For convenience I added altered `ihaskell.cabal` file to this repo for quick setup.
+
+Note that kernel does not have to be necessairly restarted after `stack build` incorporated new packages.
 
 Remark: LANGUAGE directives when used in IHaskell affect the whole session, for instance: 
 
