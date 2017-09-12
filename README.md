@@ -8,7 +8,7 @@ extra-deps:
     - composition-1.0.2.1
     - aeson-1.1.2.0
 `
-For convenience I added altered `ihaskell.cabal` file to this repo for quick setup.
+For convenience I added altered `ihaskell.cabal` file to this repo for quick setup of dependecies of ihaskell (additional libraries you use in your notebooks).
 
 Note that kernel does not have to be necessairly restarted after `stack build` incorporated new packages.
 
